@@ -1,0 +1,26 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Virtual environments
+.venv/
+
+# Audio and transcript files
+audio_files/
+transcripts/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE specific
+.vscode/
+.idea/
