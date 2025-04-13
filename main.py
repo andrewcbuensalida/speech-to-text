@@ -16,7 +16,7 @@ split_audio_file(
   output_dir="audio_files/parts",
   size_limit_mb=25,
   bitrate=128000,
-  max_duration_sec=1500
+  max_duration_sec=1499 # not 1500 because it goes over by a few milliseconds
 )
 
 transcription_text = ""
