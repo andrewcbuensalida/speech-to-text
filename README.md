@@ -1,3 +1,5 @@
+Use https://github.com/yt-dlp/yt-dlp.git to download audio from Youtube URL first.
+
 ## Create a virtual environment
 
 ```bash

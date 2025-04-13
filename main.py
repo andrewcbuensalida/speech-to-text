@@ -31,5 +31,8 @@ for part in sorted(os.listdir("audio_files/parts")):
         transcription_text += transcription.text + "\n"
 
 # Write the combined transcription to a single file
-with open("transcripts/transcription-3.txt", "w", encoding="utf-8") as file:
-    file.write(transcription_text)
+# Ensure the file is erased before writing
+transcription_file_path = "transcripts/transcription-3.txt"
+with open(transcription_file_path, "w", encoding="utf-8") as file:
+  file.truncate(0)  # Erase the file content if it exists
+  file.write(transcription_text)
